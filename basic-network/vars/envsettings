@@ -1,5 +1,5 @@
 #!/bin/bash
-declare XX_CHANNEL_NAME='mychannel'
+declare XX_CHANNEL_NAME='globalchannel'
 declare XX_CC_LANGUAGE='go'
 declare XX_IMAGETAG='2.2.0'
 declare XX_BLOCK_NUMBER='newest'
