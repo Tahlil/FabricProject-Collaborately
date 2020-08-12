@@ -1,0 +1,44 @@
+[
+    {
+        "transactionName": "modelExists",
+        "transactionLabel": "A test modelExists transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "createModel",
+        "transactionLabel": "A test createModel transaction",
+        "arguments": [
+            "001",
+            "some value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "readModel",
+        "transactionLabel": "A test readModel transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "updateModel",
+        "transactionLabel": "A test updateModel transaction",
+        "arguments": [
+            "001",
+            "some other value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "deleteModel",
+        "transactionLabel": "A test deleteModel transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    }
+]

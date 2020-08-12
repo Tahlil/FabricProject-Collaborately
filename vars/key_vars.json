@@ -1,0 +1,394 @@
+{
+  "Admin@organization_x.com": {
+    "key": "Admin@organization_x.com",
+    "org": "organization_x.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_x.com/users/Admin@organization_x.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_x.com/users/Admin@organization_x.com/msp/keystore/priv_sk",
+    "type": "users"
+  },
+  "Admin@organization_y.com": {
+    "key": "Admin@organization_y.com",
+    "org": "organization_y.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_y.com/users/Admin@organization_y.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_y.com/users/Admin@organization_y.com/msp/keystore/priv_sk",
+    "type": "users"
+  },
+  "Admin@organization_z.com": {
+    "key": "Admin@organization_z.com",
+    "org": "organization_z.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_z.com/users/Admin@organization_z.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_z.com/users/Admin@organization_z.com/msp/keystore/priv_sk",
+    "type": "users"
+  },
+  "Admin@university.com": {
+    "key": "Admin@university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/users/Admin@university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/users/Admin@university.com/msp/keystore/priv_sk",
+    "type": "users"
+  },
+  "Admin@university1.com": {
+    "key": "Admin@university1.com",
+    "org": "university1.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university1.com/users/Admin@university1.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university1.com/users/Admin@university1.com/msp/keystore/priv_sk",
+    "type": "users"
+  },
+  "Admin@university2.com": {
+    "key": "Admin@university2.com",
+    "org": "university2.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university2.com/users/Admin@university2.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university2.com/users/Admin@university2.com/msp/keystore/priv_sk",
+    "type": "users"
+  },
+  "orderer1.organization_x.com": {
+    "key": "orderer1.organization_x.com",
+    "org": "organization_x.com",
+    "path": "/home/vars/keyfiles/ordererOrganizations/organization_x.com/orderers/orderer1.organization_x.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/ordererOrganizations/organization_x.com/orderers/orderer1.organization_x.com/msp/keystore/priv_sk",
+    "type": "orderers"
+  },
+  "orderer1.organization_y.com": {
+    "key": "orderer1.organization_y.com",
+    "org": "organization_y.com",
+    "path": "/home/vars/keyfiles/ordererOrganizations/organization_y.com/orderers/orderer1.organization_y.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/ordererOrganizations/organization_y.com/orderers/orderer1.organization_y.com/msp/keystore/priv_sk",
+    "type": "orderers"
+  },
+  "orderer1.organization_z.com": {
+    "key": "orderer1.organization_z.com",
+    "org": "organization_z.com",
+    "path": "/home/vars/keyfiles/ordererOrganizations/organization_z.com/orderers/orderer1.organization_z.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/ordererOrganizations/organization_z.com/orderers/orderer1.organization_z.com/msp/keystore/priv_sk",
+    "type": "orderers"
+  },
+  "orderer1.university1.com": {
+    "key": "orderer1.university1.com",
+    "org": "university1.com",
+    "path": "/home/vars/keyfiles/ordererOrganizations/university1.com/orderers/orderer1.university1.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/ordererOrganizations/university1.com/orderers/orderer1.university1.com/msp/keystore/priv_sk",
+    "type": "orderers"
+  },
+  "orderer1.university2.com": {
+    "key": "orderer1.university2.com",
+    "org": "university2.com",
+    "path": "/home/vars/keyfiles/ordererOrganizations/university2.com/orderers/orderer1.university2.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/ordererOrganizations/university2.com/orderers/orderer1.university2.com/msp/keystore/priv_sk",
+    "type": "orderers"
+  },
+  "orderer2.university1.com": {
+    "key": "orderer2.university1.com",
+    "org": "university1.com",
+    "path": "/home/vars/keyfiles/ordererOrganizations/university1.com/orderers/orderer2.university1.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/ordererOrganizations/university1.com/orderers/orderer2.university1.com/msp/keystore/priv_sk",
+    "type": "orderers"
+  },
+  "orderer2.university2.com": {
+    "key": "orderer2.university2.com",
+    "org": "university2.com",
+    "path": "/home/vars/keyfiles/ordererOrganizations/university2.com/orderers/orderer2.university2.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/ordererOrganizations/university2.com/orderers/orderer2.university2.com/msp/keystore/priv_sk",
+    "type": "orderers"
+  },
+  "orderer3.university1.com": {
+    "key": "orderer3.university1.com",
+    "org": "university1.com",
+    "path": "/home/vars/keyfiles/ordererOrganizations/university1.com/orderers/orderer3.university1.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/ordererOrganizations/university1.com/orderers/orderer3.university1.com/msp/keystore/priv_sk",
+    "type": "orderers"
+  },
+  "orderer3.university2.com": {
+    "key": "orderer3.university2.com",
+    "org": "university2.com",
+    "path": "/home/vars/keyfiles/ordererOrganizations/university2.com/orderers/orderer3.university2.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/ordererOrganizations/university2.com/orderers/orderer3.university2.com/msp/keystore/priv_sk",
+    "type": "orderers"
+  },
+  "organization_x.com": {
+    "key": "organization_x.com",
+    "org": "organization_x.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_x.com/ca/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_x.com/ca/priv_sk",
+    "type": "ca"
+  },
+  "organization_x.com.tlsca": {
+    "key": "organization_x.com",
+    "org": "organization_x.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_x.com/tlsca/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_x.com/tlsca/priv_sk",
+    "type": "tlsca"
+  },
+  "organization_y.com": {
+    "key": "organization_y.com",
+    "org": "organization_y.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_y.com/ca/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_y.com/ca/priv_sk",
+    "type": "ca"
+  },
+  "organization_y.com.tlsca": {
+    "key": "organization_y.com",
+    "org": "organization_y.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_y.com/tlsca/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_y.com/tlsca/priv_sk",
+    "type": "tlsca"
+  },
+  "organization_z.com": {
+    "key": "organization_z.com",
+    "org": "organization_z.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_z.com/ca/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_z.com/ca/priv_sk",
+    "type": "ca"
+  },
+  "organization_z.com.tlsca": {
+    "key": "organization_z.com",
+    "org": "organization_z.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_z.com/tlsca/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_z.com/tlsca/priv_sk",
+    "type": "tlsca"
+  },
+  "peer1.organization_x.com": {
+    "key": "peer1.organization_x.com",
+    "org": "organization_x.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_x.com/peers/peer1.organization_x.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_x.com/peers/peer1.organization_x.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer1.organization_y.com": {
+    "key": "peer1.organization_y.com",
+    "org": "organization_y.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_y.com/peers/peer1.organization_y.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_y.com/peers/peer1.organization_y.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer1.organization_z.com": {
+    "key": "peer1.organization_z.com",
+    "org": "organization_z.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_z.com/peers/peer1.organization_z.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_z.com/peers/peer1.organization_z.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer1.university1.com": {
+    "key": "peer1.university1.com",
+    "org": "university1.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university1.com/peers/peer1.university1.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university1.com/peers/peer1.university1.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer1.university2.com": {
+    "key": "peer1.university2.com",
+    "org": "university2.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university2.com/peers/peer1.university2.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university2.com/peers/peer1.university2.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer1u1.university.com": {
+    "key": "peer1u1.university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/peers/peer1u1.university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/peers/peer1u1.university.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer1u2.university.com": {
+    "key": "peer1u2.university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/peers/peer1u2.university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/peers/peer1u2.university.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer2.organization_x.com": {
+    "key": "peer2.organization_x.com",
+    "org": "organization_x.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_x.com/peers/peer2.organization_x.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_x.com/peers/peer2.organization_x.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer2.organization_y.com": {
+    "key": "peer2.organization_y.com",
+    "org": "organization_y.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_y.com/peers/peer2.organization_y.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_y.com/peers/peer2.organization_y.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer2.organization_z.com": {
+    "key": "peer2.organization_z.com",
+    "org": "organization_z.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_z.com/peers/peer2.organization_z.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_z.com/peers/peer2.organization_z.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer2.university2.com": {
+    "key": "peer2.university2.com",
+    "org": "university2.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university2.com/peers/peer2.university2.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university2.com/peers/peer2.university2.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer2u1.university.com": {
+    "key": "peer2u1.university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/peers/peer2u1.university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/peers/peer2u1.university.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer2u2.university.com": {
+    "key": "peer2u2.university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/peers/peer2u2.university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/peers/peer2u2.university.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer3.organization_x.com": {
+    "key": "peer3.organization_x.com",
+    "org": "organization_x.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_x.com/peers/peer3.organization_x.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_x.com/peers/peer3.organization_x.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer3.organization_y.com": {
+    "key": "peer3.organization_y.com",
+    "org": "organization_y.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_y.com/peers/peer3.organization_y.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_y.com/peers/peer3.organization_y.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer3.organization_z.com": {
+    "key": "peer3.organization_z.com",
+    "org": "organization_z.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/organization_z.com/peers/peer3.organization_z.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/organization_z.com/peers/peer3.organization_z.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer3u1.university.com": {
+    "key": "peer3u1.university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/peers/peer3u1.university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/peers/peer3u1.university.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer3u2.university.com": {
+    "key": "peer3u2.university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/peers/peer3u2.university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/peers/peer3u2.university.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer4u1.university.com": {
+    "key": "peer4u1.university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/peers/peer4u1.university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/peers/peer4u1.university.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer4u2.university.com": {
+    "key": "peer4u2.university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/peers/peer4u2.university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/peers/peer4u2.university.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer5u1.university.com": {
+    "key": "peer5u1.university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/peers/peer5u1.university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/peers/peer5u1.university.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer5u2.university.com": {
+    "key": "peer5u2.university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/peers/peer5u2.university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/peers/peer5u2.university.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer6u1.university.com": {
+    "key": "peer6u1.university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/peers/peer6u1.university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/peers/peer6u1.university.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer6u2.university.com": {
+    "key": "peer6u2.university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/peers/peer6u2.university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/peers/peer6u2.university.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer7u1.university.com": {
+    "key": "peer7u1.university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/peers/peer7u1.university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/peers/peer7u1.university.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer7u2.university.com": {
+    "key": "peer7u2.university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/peers/peer7u2.university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/peers/peer7u2.university.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer8u1.university.com": {
+    "key": "peer8u1.university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/peers/peer8u1.university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/peers/peer8u1.university.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer8u2.university.com": {
+    "key": "peer8u2.university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/peers/peer8u2.university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/peers/peer8u2.university.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer9u1.university.com": {
+    "key": "peer9u1.university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/peers/peer9u1.university.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/peers/peer9u1.university.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "university.com": {
+    "key": "university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/ca/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/ca/priv_sk",
+    "type": "ca"
+  },
+  "university.com.tlsca": {
+    "key": "university.com",
+    "org": "university.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university.com/tlsca/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university.com/tlsca/priv_sk",
+    "type": "tlsca"
+  },
+  "university1.com": {
+    "key": "university1.com",
+    "org": "university1.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university1.com/ca/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university1.com/ca/priv_sk",
+    "type": "ca"
+  },
+  "university1.com.tlsca": {
+    "key": "university1.com",
+    "org": "university1.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university1.com/tlsca/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university1.com/tlsca/priv_sk",
+    "type": "tlsca"
+  },
+  "university2.com": {
+    "key": "university2.com",
+    "org": "university2.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university2.com/ca/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university2.com/ca/priv_sk",
+    "type": "ca"
+  },
+  "university2.com.tlsca": {
+    "key": "university2.com",
+    "org": "university2.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/university2.com/tlsca/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/university2.com/tlsca/priv_sk",
+    "type": "tlsca"
+  }
+}

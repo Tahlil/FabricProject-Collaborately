@@ -1,0 +1,54 @@
+fabric:
+    cas:
+    - "ca1.university.com"
+    - "ca2.university1.com"
+    - "ca3.university2.com"
+    - "ca4.org.com"
+    - "ca5.org.com"
+    peers:
+    - "peer1.university1.com"
+    - "peer1.university2.com"
+    - "peer2.university2.com"   
+    - "peer1u1.university.com"
+    - "peer2u1.university.com"
+    - "peer3u1.university.com"
+    - "peer5u1.university.com"
+    - "peer4u1.university.com"
+    - "peer6u1.university.com"
+    - "peer7u1.university.com"
+    - "peer8u1.university.com"
+    - "peer9u1.university.com"
+    - "peer1u2.university.com"
+    - "peer2u2.university.com"
+    - "peer3u2.university.com"
+    - "peer4u2.university.com"
+    - "peer5u2.university.com"
+    - "peer6u2.university.com"
+    - "peer7u2.university.com"
+    - "peer8u2.university.com"
+    - "peer1.organization_x.com"
+    - "peer2.organization_x.com"
+    - "peer3.organization_x.com"
+    - "peer1.organization_y.com"
+    - "peer2.organization_y.com"
+    - "peer3.organization_y.com"
+    - "peer1.organization_z.com"
+    - "peer2.organization_z.com"
+    - "peer3.organization_z.com"
+    orderers:
+    - "orderer1.university1.com"
+    - "orderer2.university1.com"
+    - "orderer3.university1.com"
+    - "orderer1.university2.com"
+    - "orderer2.university2.com"
+    - "orderer3.university2.com"
+    - "orderer1.organization_x.com"
+    - "orderer1.organization_y.com"
+    - "orderer1.organization_z.com"
+    settings:
+      ca:
+        FABRIC_LOGGING_SPEC: DEBUG
+      peer:
+        FABRIC_LOGGING_SPEC: DEBUG
+      orderer:
+        FABRIC_LOGGING_SPEC: DEBUG

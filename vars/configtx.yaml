@@ -1,0 +1,345 @@
+---
+Organizations:
+  - &org-com
+      Name: org-com
+      ID: org-com
+  - &organization_x-com
+      Name: organization_x-com
+      ID: organization_x-com
+      MSPDir: keyfiles/peerOrganizations/organization_x.com/msp
+      Policies:
+        Readers:
+          Type: Signature
+          Rule: "OR('organization_x-com.admin', 'organization_x-com.peer', 'organization_x-com.client')"
+        Writers:
+          Type: Signature
+          Rule: "OR('organization_x-com.admin', 'organization_x-com.client')"
+        Admins:
+          Type: Signature
+          Rule: "OR('organization_x-com.admin')"
+        Endorsement:
+          Type: Signature
+          Rule: "OR('organization_x-com.peer')"
+
+      AnchorPeers:
+      - Host: peer1.organization_x.com
+        Port: 7051
+      - Host: peer2.organization_x.com
+        Port: 7051
+      - Host: peer3.organization_x.com
+        Port: 7051
+  - &organization_y-com
+      Name: organization_y-com
+      ID: organization_y-com
+      MSPDir: keyfiles/peerOrganizations/organization_y.com/msp
+      Policies:
+        Readers:
+          Type: Signature
+          Rule: "OR('organization_y-com.admin', 'organization_y-com.peer', 'organization_y-com.client')"
+        Writers:
+          Type: Signature
+          Rule: "OR('organization_y-com.admin', 'organization_y-com.client')"
+        Admins:
+          Type: Signature
+          Rule: "OR('organization_y-com.admin')"
+        Endorsement:
+          Type: Signature
+          Rule: "OR('organization_y-com.peer')"
+
+      AnchorPeers:
+      - Host: peer1.organization_y.com
+        Port: 7051
+      - Host: peer2.organization_y.com
+        Port: 7051
+      - Host: peer3.organization_y.com
+        Port: 7051
+  - &organization_z-com
+      Name: organization_z-com
+      ID: organization_z-com
+      MSPDir: keyfiles/peerOrganizations/organization_z.com/msp
+      Policies:
+        Readers:
+          Type: Signature
+          Rule: "OR('organization_z-com.admin', 'organization_z-com.peer', 'organization_z-com.client')"
+        Writers:
+          Type: Signature
+          Rule: "OR('organization_z-com.admin', 'organization_z-com.client')"
+        Admins:
+          Type: Signature
+          Rule: "OR('organization_z-com.admin')"
+        Endorsement:
+          Type: Signature
+          Rule: "OR('organization_z-com.peer')"
+
+      AnchorPeers:
+      - Host: peer1.organization_z.com
+        Port: 7051
+      - Host: peer2.organization_z.com
+        Port: 7051
+      - Host: peer3.organization_z.com
+        Port: 7051
+  - &university-com
+      Name: university-com
+      ID: university-com
+      MSPDir: keyfiles/peerOrganizations/university.com/msp
+      Policies:
+        Readers:
+          Type: Signature
+          Rule: "OR('university-com.admin', 'university-com.peer', 'university-com.client')"
+        Writers:
+          Type: Signature
+          Rule: "OR('university-com.admin', 'university-com.client')"
+        Admins:
+          Type: Signature
+          Rule: "OR('university-com.admin')"
+        Endorsement:
+          Type: Signature
+          Rule: "OR('university-com.peer')"
+
+      AnchorPeers:
+      - Host: peer1u1.university.com
+        Port: 7051
+      - Host: peer2u1.university.com
+        Port: 7051
+      - Host: peer3u1.university.com
+        Port: 7051
+      - Host: peer5u1.university.com
+        Port: 7051
+      - Host: peer4u1.university.com
+        Port: 7051
+      - Host: peer6u1.university.com
+        Port: 7051
+      - Host: peer7u1.university.com
+        Port: 7051
+      - Host: peer8u1.university.com
+        Port: 7051
+      - Host: peer9u1.university.com
+        Port: 7051
+      - Host: peer1u2.university.com
+        Port: 7051
+      - Host: peer2u2.university.com
+        Port: 7051
+      - Host: peer3u2.university.com
+        Port: 7051
+      - Host: peer4u2.university.com
+        Port: 7051
+      - Host: peer5u2.university.com
+        Port: 7051
+      - Host: peer6u2.university.com
+        Port: 7051
+      - Host: peer7u2.university.com
+        Port: 7051
+      - Host: peer8u2.university.com
+        Port: 7051
+  - &university1-com
+      Name: university1-com
+      ID: university1-com
+      MSPDir: keyfiles/peerOrganizations/university1.com/msp
+      Policies:
+        Readers:
+          Type: Signature
+          Rule: "OR('university1-com.admin', 'university1-com.peer', 'university1-com.client')"
+        Writers:
+          Type: Signature
+          Rule: "OR('university1-com.admin', 'university1-com.client')"
+        Admins:
+          Type: Signature
+          Rule: "OR('university1-com.admin')"
+        Endorsement:
+          Type: Signature
+          Rule: "OR('university1-com.peer')"
+
+      AnchorPeers:
+      - Host: peer1.university1.com
+        Port: 7051
+  - &university2-com
+      Name: university2-com
+      ID: university2-com
+      MSPDir: keyfiles/peerOrganizations/university2.com/msp
+      Policies:
+        Readers:
+          Type: Signature
+          Rule: "OR('university2-com.admin', 'university2-com.peer', 'university2-com.client')"
+        Writers:
+          Type: Signature
+          Rule: "OR('university2-com.admin', 'university2-com.client')"
+        Admins:
+          Type: Signature
+          Rule: "OR('university2-com.admin')"
+        Endorsement:
+          Type: Signature
+          Rule: "OR('university2-com.peer')"
+
+      AnchorPeers:
+      - Host: peer1.university2.com
+        Port: 7051
+      - Host: peer2.university2.com
+        Port: 7051
+
+Capabilities:
+  Channel: &ChannelCapabilities
+    V2_0: true
+
+  Orderer: &OrdererCapabilities
+    V2_0: true
+
+  Application: &ApplicationCapabilities
+    V2_0: true
+
+Application: &ApplicationDefaults
+  Organizations:
+  Policies:
+    Readers:
+      Type: ImplicitMeta
+      Rule: "ANY Readers"
+    Writers:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+    Admins:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Admins"
+    LifecycleEndorsement:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Endorsement"
+    Endorsement:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Endorsement"
+
+  Capabilities:
+    <<: *ApplicationCapabilities
+
+Orderer: &OrdererDefaults
+  OrdererType: etcdraft
+
+  BatchTimeout: 2s
+
+  BatchSize:
+    MaxMessageCount: 10
+    AbsoluteMaxBytes: 99 MB
+    PreferredMaxBytes: 512 KB
+
+  Addresses:
+  - orderer1.university1.com:7050
+  - orderer2.university1.com:7050
+  - orderer3.university1.com:7050
+  - orderer1.university2.com:7050
+  - orderer2.university2.com:7050
+  - orderer3.university2.com:7050
+  - orderer1.organization_x.com:7050
+  - orderer1.organization_y.com:7050
+  - orderer1.organization_z.com:7050
+  EtcdRaft:
+    Consenters:
+    - Host: orderer1.university1.com
+      Port: 7050
+      ClientTLSCert: keyfiles/ordererOrganizations/university1.com/orderers/orderer1.university1.com/tls/server.crt
+      ServerTLSCert: keyfiles/ordererOrganizations/university1.com/orderers/orderer1.university1.com/tls/server.crt
+    - Host: orderer2.university1.com
+      Port: 7050
+      ClientTLSCert: keyfiles/ordererOrganizations/university1.com/orderers/orderer2.university1.com/tls/server.crt
+      ServerTLSCert: keyfiles/ordererOrganizations/university1.com/orderers/orderer2.university1.com/tls/server.crt
+    - Host: orderer3.university1.com
+      Port: 7050
+      ClientTLSCert: keyfiles/ordererOrganizations/university1.com/orderers/orderer3.university1.com/tls/server.crt
+      ServerTLSCert: keyfiles/ordererOrganizations/university1.com/orderers/orderer3.university1.com/tls/server.crt
+    - Host: orderer1.university2.com
+      Port: 7050
+      ClientTLSCert: keyfiles/ordererOrganizations/university2.com/orderers/orderer1.university2.com/tls/server.crt
+      ServerTLSCert: keyfiles/ordererOrganizations/university2.com/orderers/orderer1.university2.com/tls/server.crt
+    - Host: orderer2.university2.com
+      Port: 7050
+      ClientTLSCert: keyfiles/ordererOrganizations/university2.com/orderers/orderer2.university2.com/tls/server.crt
+      ServerTLSCert: keyfiles/ordererOrganizations/university2.com/orderers/orderer2.university2.com/tls/server.crt
+    - Host: orderer3.university2.com
+      Port: 7050
+      ClientTLSCert: keyfiles/ordererOrganizations/university2.com/orderers/orderer3.university2.com/tls/server.crt
+      ServerTLSCert: keyfiles/ordererOrganizations/university2.com/orderers/orderer3.university2.com/tls/server.crt
+    - Host: orderer1.organization_x.com
+      Port: 7050
+      ClientTLSCert: keyfiles/ordererOrganizations/organization_x.com/orderers/orderer1.organization_x.com/tls/server.crt
+      ServerTLSCert: keyfiles/ordererOrganizations/organization_x.com/orderers/orderer1.organization_x.com/tls/server.crt
+    - Host: orderer1.organization_y.com
+      Port: 7050
+      ClientTLSCert: keyfiles/ordererOrganizations/organization_y.com/orderers/orderer1.organization_y.com/tls/server.crt
+      ServerTLSCert: keyfiles/ordererOrganizations/organization_y.com/orderers/orderer1.organization_y.com/tls/server.crt
+    - Host: orderer1.organization_z.com
+      Port: 7050
+      ClientTLSCert: keyfiles/ordererOrganizations/organization_z.com/orderers/orderer1.organization_z.com/tls/server.crt
+      ServerTLSCert: keyfiles/ordererOrganizations/organization_z.com/orderers/orderer1.organization_z.com/tls/server.crt
+  Organizations:
+  Policies:
+    Readers:
+      Type: ImplicitMeta
+      Rule: "ANY Readers"
+    Writers:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+    Admins:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Admins"
+    BlockValidation:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+
+Channel: &ChannelDefaults
+  Policies:
+    Readers:
+      Type: ImplicitMeta
+      Rule: "ANY Readers"
+    Writers:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+    Admins:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Admins"
+
+  Capabilities:
+    <<: *ChannelCapabilities
+
+Profiles:
+  OrgChannel:
+    Consortium: SampleConsortium
+    <<: *ChannelDefaults
+    Application:
+      <<: *ApplicationDefaults
+      Organizations:
+      - *organization_x-com
+      - *organization_y-com
+      - *organization_z-com
+      - *university-com
+      - *university1-com
+      - *university2-com
+      Capabilities:
+        <<: *ApplicationCapabilities
+
+  OrdererGenesis:
+    <<: *ChannelDefaults
+    Capabilities:
+      <<: *ChannelCapabilities
+    Orderer:
+      <<: *OrdererDefaults
+      Organizations:
+      - *organization_x-com
+      - *organization_y-com
+      - *organization_z-com
+      - *university1-com
+      - *university2-com
+      Capabilities:
+        <<: *OrdererCapabilities
+    Application:
+      <<: *ApplicationDefaults
+      Organizations:
+      - <<: *organization_x-com
+      - <<: *organization_y-com
+      - <<: *organization_z-com
+      - <<: *university1-com
+      - <<: *university2-com
+    Consortiums:
+      SampleConsortium:
+        Organizations:
+        - *organization_x-com
+        - *organization_y-com
+        - *organization_z-com
+        - *university-com
+        - *university1-com
+        - *university2-com

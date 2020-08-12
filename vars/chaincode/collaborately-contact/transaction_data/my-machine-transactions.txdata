@@ -1,0 +1,44 @@
+[
+    {
+        "transactionName": "myMachineExists",
+        "transactionLabel": "A test myMachineExists transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "createMyMachine",
+        "transactionLabel": "A test createMyMachine transaction",
+        "arguments": [
+            "001",
+            "some value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "readMyMachine",
+        "transactionLabel": "A test readMyMachine transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "updateMyMachine",
+        "transactionLabel": "A test updateMyMachine transaction",
+        "arguments": [
+            "001",
+            "some other value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "deleteMyMachine",
+        "transactionLabel": "A test deleteMyMachine transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    }
+]

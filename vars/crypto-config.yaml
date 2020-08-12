@@ -1,0 +1,216 @@
+---
+OrdererOrgs:
+  - Name: organization_x.com
+    Domain: organization_x.com
+    Specs:
+      - Hostname: orderer1
+        SANS:
+          - orderer1.organization_x.com
+  - Name: organization_y.com
+    Domain: organization_y.com
+    Specs:
+      - Hostname: orderer1
+        SANS:
+          - orderer1.organization_y.com
+  - Name: organization_z.com
+    Domain: organization_z.com
+    Specs:
+      - Hostname: orderer1
+        SANS:
+          - orderer1.organization_z.com
+  - Name: university1.com
+    Domain: university1.com
+    CA:
+      Hostname: ca2
+      CommonName: ca2.university1.com
+      Country: US
+      Province: North Carolina
+      Locality: Raleigh
+    Specs:
+      - Hostname: orderer1
+        SANS:
+          - orderer1.university1.com
+      - Hostname: orderer2
+        SANS:
+          - orderer2.university1.com
+      - Hostname: orderer3
+        SANS:
+          - orderer3.university1.com
+  - Name: university2.com
+    Domain: university2.com
+    CA:
+      Hostname: ca3
+      CommonName: ca3.university2.com
+      Country: US
+      Province: North Carolina
+      Locality: Raleigh
+    Specs:
+      - Hostname: orderer1
+        SANS:
+          - orderer1.university2.com
+      - Hostname: orderer2
+        SANS:
+          - orderer2.university2.com
+      - Hostname: orderer3
+        SANS:
+          - orderer3.university2.com
+
+PeerOrgs:
+  - Name: organization_x.com
+    Domain: organization_x.com
+    EnableNodeOUs: true
+    Specs:
+      - Hostname: peer1
+        CommonName: peer1.organization_x.com
+        SANS:
+          - peer1.organization_x.com
+      - Hostname: peer2
+        CommonName: peer2.organization_x.com
+        SANS:
+          - peer2.organization_x.com
+      - Hostname: peer3
+        CommonName: peer3.organization_x.com
+        SANS:
+          - peer3.organization_x.com
+  - Name: organization_y.com
+    Domain: organization_y.com
+    EnableNodeOUs: true
+    Specs:
+      - Hostname: peer1
+        CommonName: peer1.organization_y.com
+        SANS:
+          - peer1.organization_y.com
+      - Hostname: peer2
+        CommonName: peer2.organization_y.com
+        SANS:
+          - peer2.organization_y.com
+      - Hostname: peer3
+        CommonName: peer3.organization_y.com
+        SANS:
+          - peer3.organization_y.com
+  - Name: organization_z.com
+    Domain: organization_z.com
+    EnableNodeOUs: true
+    Specs:
+      - Hostname: peer1
+        CommonName: peer1.organization_z.com
+        SANS:
+          - peer1.organization_z.com
+      - Hostname: peer2
+        CommonName: peer2.organization_z.com
+        SANS:
+          - peer2.organization_z.com
+      - Hostname: peer3
+        CommonName: peer3.organization_z.com
+        SANS:
+          - peer3.organization_z.com
+  - Name: university.com
+    Domain: university.com
+    EnableNodeOUs: true
+    CA:
+      Hostname: ca1
+      CommonName: ca1.university.com
+      Country: US
+      Province: North Carolina
+      Locality: Raleigh
+    Specs:
+      - Hostname: peer1u1
+        CommonName: peer1u1.university.com
+        SANS:
+          - peer1u1.university.com
+      - Hostname: peer2u1
+        CommonName: peer2u1.university.com
+        SANS:
+          - peer2u1.university.com
+      - Hostname: peer3u1
+        CommonName: peer3u1.university.com
+        SANS:
+          - peer3u1.university.com
+      - Hostname: peer5u1
+        CommonName: peer5u1.university.com
+        SANS:
+          - peer5u1.university.com
+      - Hostname: peer4u1
+        CommonName: peer4u1.university.com
+        SANS:
+          - peer4u1.university.com
+      - Hostname: peer6u1
+        CommonName: peer6u1.university.com
+        SANS:
+          - peer6u1.university.com
+      - Hostname: peer7u1
+        CommonName: peer7u1.university.com
+        SANS:
+          - peer7u1.university.com
+      - Hostname: peer8u1
+        CommonName: peer8u1.university.com
+        SANS:
+          - peer8u1.university.com
+      - Hostname: peer9u1
+        CommonName: peer9u1.university.com
+        SANS:
+          - peer9u1.university.com
+      - Hostname: peer1u2
+        CommonName: peer1u2.university.com
+        SANS:
+          - peer1u2.university.com
+      - Hostname: peer2u2
+        CommonName: peer2u2.university.com
+        SANS:
+          - peer2u2.university.com
+      - Hostname: peer3u2
+        CommonName: peer3u2.university.com
+        SANS:
+          - peer3u2.university.com
+      - Hostname: peer4u2
+        CommonName: peer4u2.university.com
+        SANS:
+          - peer4u2.university.com
+      - Hostname: peer5u2
+        CommonName: peer5u2.university.com
+        SANS:
+          - peer5u2.university.com
+      - Hostname: peer6u2
+        CommonName: peer6u2.university.com
+        SANS:
+          - peer6u2.university.com
+      - Hostname: peer7u2
+        CommonName: peer7u2.university.com
+        SANS:
+          - peer7u2.university.com
+      - Hostname: peer8u2
+        CommonName: peer8u2.university.com
+        SANS:
+          - peer8u2.university.com
+  - Name: university1.com
+    Domain: university1.com
+    EnableNodeOUs: true
+    CA:
+      Hostname: ca2
+      CommonName: ca2.university1.com
+      Country: US
+      Province: North Carolina
+      Locality: Raleigh
+    Specs:
+      - Hostname: peer1
+        CommonName: peer1.university1.com
+        SANS:
+          - peer1.university1.com
+  - Name: university2.com
+    Domain: university2.com
+    EnableNodeOUs: true
+    CA:
+      Hostname: ca3
+      CommonName: ca3.university2.com
+      Country: US
+      Province: North Carolina
+      Locality: Raleigh
+    Specs:
+      - Hostname: peer1
+        CommonName: peer1.university2.com
+        SANS:
+          - peer1.university2.com
+      - Hostname: peer2
+        CommonName: peer2.university2.com
+        SANS:
+          - peer2.university2.com
