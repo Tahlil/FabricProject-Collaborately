@@ -4,7 +4,7 @@ cp $FABRIC_CFG_PATH/core.yaml /vars/core.yaml
 cd /vars
 export FABRIC_CFG_PATH=/vars
 configtxgen -profile OrgChannel \
-  -outputCreateChannelTx mychannel.tx -channelID mychannel
+  -outputCreateChannelTx globalchannel.tx -channelID globalchannel
 
 export CORE_PEER_TLS_ENABLED=true
 export CORE_PEER_ID=cli
@@ -14,5 +14,5 @@ export CORE_PEER_LOCALMSPID=org0-example-com
 export CORE_PEER_MSPCONFIGPATH=/vars/keyfiles/peerOrganizations/org0.example.com/users/Admin@org0.example.com/msp
 export ORDERER_ADDRESS=orderer2.example.com:7050
 export ORDERER_TLS_CA=/vars/keyfiles/ordererOrganizations/example.com/orderers/orderer2.example.com/tls/ca.crt
-peer channel create -c mychannel -f mychannel.tx -o $ORDERER_ADDRESS \
+peer channel create -c globalchannel -f globalchannel.tx -o $ORDERER_ADDRESS \
   --cafile $ORDERER_TLS_CA --tls

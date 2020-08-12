@@ -6,12 +6,12 @@ export CORE_PEER_ADDRESS=peer1.org0.example.com:7051
 export CORE_PEER_TLS_ROOTCERT_FILE=/vars/keyfiles/peerOrganizations/org0.example.com/peers/peer1.org0.example.com/tls/ca.crt
 export CORE_PEER_LOCALMSPID=org0-example-com
 export CORE_PEER_MSPCONFIGPATH=/vars/keyfiles/peerOrganizations/org0.example.com/users/Admin@org0.example.com/msp
-export ORDERER_ADDRESS=orderer2.example.com:7050
-export ORDERER_TLS_CA=/vars/keyfiles/ordererOrganizations/example.com/orderers/orderer2.example.com/tls/ca.crt
-if [ ! -f "mychannel.genesis.block" ]; then
+export ORDERER_ADDRESS=orderer1.example.com:7050
+export ORDERER_TLS_CA=/vars/keyfiles/ordererOrganizations/example.com/orderers/orderer1.example.com/tls/ca.crt
+if [ ! -f "globalchannel.genesis.block" ]; then
   peer channel fetch oldest -o $ORDERER_ADDRESS --cafile $ORDERER_TLS_CA \
-  --tls -c mychannel /vars/mychannel.genesis.block
+  --tls -c globalchannel /vars/globalchannel.genesis.block
 fi
 
-peer channel join -b /vars/mychannel.genesis.block \
+peer channel join -b /vars/globalchannel.genesis.block \
   -o $ORDERER_ADDRESS --cafile $ORDERER_TLS_CA --tls
