@@ -1,0 +1,4 @@
+2020-08-12 21:18:29,896 p=21 u=root n=ansible | [WARNING]: Failure using method (v2_runner_on_failed) in callback plugin
+(<ansible.plugins.callback.minifab.CallbackModule object at 0x7f6e3c82cf40>):
+unsupported operand type(s) for +: 'dict_keys' and 'dict_keys'
+

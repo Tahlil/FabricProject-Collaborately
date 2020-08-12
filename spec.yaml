@@ -5,10 +5,7 @@ fabric:
     - "ca3.university2.com"
     - "ca4.org.com"
     - "ca5.org.com"
-    peers:
-    - "peer1.university1.com"
-    - "peer1.university2.com"
-    - "peer2.university2.com"   
+    peers: 
     - "peer1u1.university.com"
     - "peer2u1.university.com"
     - "peer3u1.university.com"
