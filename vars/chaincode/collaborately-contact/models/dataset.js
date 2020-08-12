@@ -3,6 +3,7 @@ module.exports = class Dataset {
         id,
     fileName,
     fileType,
+    fileSize,
     datasetName,
     description,
     columns,
@@ -13,6 +14,7 @@ module.exports = class Dataset {
         this.id =id;
         this.fileName = fileName;
         this.fileType = fileType;
+        this.fileSize = fileSize;
         this.datasetName = datasetName;
         this.description = description;
         this.columns = columns;
